@@ -1,6 +1,6 @@
 import http from "./httpService";
 
-const apiEndpoint = "https://netly-vercel.vercel.app/movies";
+const apiEndpoint = "https://netly-vercel.vercel.app/api/movies";
 
 export function getMovies() {
   return http.get(apiEndpoint);
