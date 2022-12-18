@@ -1,0 +1,28 @@
+.navbar-wrap {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  position: fixed;
+  width: 100vw;
+}
+
+.navbar-brand-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.navbar-items {
+  margin-right: 25px;
+}
+
+.navbar-items .navbar-link {
+  font-size: 1.2rem;
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+}

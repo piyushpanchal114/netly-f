@@ -1,0 +1,23 @@
+.pagination-wrap {
+  display: flex;
+}
+
+.pagination-wrap .page-item,
+.pagination-wrap .page-item-active {
+  list-style: none;
+  margin: 0.25rem;
+}
+
+.pagination-wrap .page-item .page-link {
+  color: dodgerblue;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid dodgerblue;
+}
+
+.pagination-wrap .page-item-active .page-link {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+}

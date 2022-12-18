@@ -1,0 +1,18 @@
+.table-header {
+  display: flex;
+  justify-content: space-evenly;
+  border-color: gray;
+  border-style: solid;
+  border-left: 2px;
+  border-right: 2px;
+}
+
+.table-header span {
+  font-weight: bold;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

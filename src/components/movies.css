@@ -1,0 +1,26 @@
+.movies-container {
+  display: flex;
+}
+
+.movies-side {
+  flex: 1;
+}
+
+.movies-wrap {
+  flex: 5;
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 7px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.movies-wrap table,
+.movies-wrap td,
+.movies-wrap th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.listGroup-wrap {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: dodgerblue;
+}
+.listGroup-item,
+.listGroup-item-active {
+  border: 1px solid gray;
+  margin: 3px;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.listGroup-item-active {
+  color: #fff;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+}
